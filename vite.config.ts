@@ -8,4 +8,11 @@ export default defineConfig({
 		open: true,
 		port: 3000,
 	},
+	css: {
+		modules: {
+			localsConvention: 'dashesOnly',
+			generateScopedName: '[name]__[local]___[hash:base64:5]',
+			globalModulePaths: [/index.css/],
+		},
+	},
 });
