@@ -1,9 +1,44 @@
+/* .ornament-right {
+	position: absolute;
+	top: -8rem;
+	right: -16rem;
+	width: 45%;
+} */
+
+.ornament-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url('../assets/img/ornament.svg') no-repeat left bottom;
+	background-size: 100%;
+	width: 400px;
+	height: 250px;
+
+	@media (max-width: 900px) {
+		display: none;
+	}
+}
+
+.ornament-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url('../assets/img/ornament.svg') no-repeat top right;
+	background-size: 100%;
+	width: 300px;
+	height: 150px;
+
+	@media (max-width: 900px) {
+		display: none;
+	}
+}
+
 .main {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
 	margin: auto;
-	padding-top: 2rem;
+	padding-top: 4rem;
 }
 
 .logo {
