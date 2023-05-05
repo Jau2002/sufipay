@@ -1,10 +1,14 @@
 import { type ReactElement } from 'react';
-import SubmitButton from './components/SubmitButton';
+import Access from './components/Access';
 
 function App(): ReactElement {
 	return (
 		<>
-			<SubmitButton>INGRESAR</SubmitButton>
+			<Access name='Usuario' />
+			<Access
+				name='Contraseña'
+				type='password'
+			/>
 		</>
 	);
 }
