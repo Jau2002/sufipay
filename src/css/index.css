@@ -23,6 +23,20 @@
 		transition: none !important;
 	}
 }
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	src: url('/public/OpenSans-Bold.woff2') format('woff2');
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	src: url('/public/OpenSans-Regular.woff2') format('woff2');
+	font-display: swap;
+}
 
 * {
 	margin: 0;
