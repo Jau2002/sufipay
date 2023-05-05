@@ -21,6 +21,7 @@ rules:
   no-tabs: 0
   react-refresh/only-export-components: 1
   react/react-in-jsx-scope: 0
+  '@typescript-eslint/strict-boolean-expressions': 0
 ignorePatterns:
   - node_modules/
   - build/

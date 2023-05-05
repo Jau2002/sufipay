@@ -16,6 +16,15 @@
 	width: 100%;
 }
 
+.section-input-error {
+	padding: 0.5rem 2rem 0.5rem 1rem;
+	outline: none;
+	width: 100%;
+	background: #fce4e4;
+	border: 1px solid #cc0033;
+	border-radius: 6px;
+}
+
 .section-input::placeholder {
 	font: 1em 'Open Sans', sans-serif;
 	color: #413e4d;
