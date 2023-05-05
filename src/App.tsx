@@ -1,14 +1,10 @@
 import { type ReactElement } from 'react';
-import Access from './components/Access';
+import LogIn from './page/LogIn';
 
 function App(): ReactElement {
 	return (
 		<>
-			<Access name='Usuario' />
-			<Access
-				name='Contraseña'
-				type='password'
-			/>
+			<LogIn />
 		</>
 	);
 }
