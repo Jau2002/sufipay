@@ -1,0 +1,22 @@
+.section {
+	border: 1px solid #abb9c780;
+	margin: 1rem;
+	border-radius: 6px;
+}
+
+.section-label {
+	font: 0.9em 'Open Sans', sans-serif;
+	padding: 0.5rem 1rem;
+	color: #abb9c7;
+}
+
+.section-input {
+	padding: 0.5rem 2rem 0.5rem 1rem;
+	outline: none;
+	width: 100%;
+}
+
+.section-input::placeholder {
+	font: 1em 'Open Sans', sans-serif;
+	color: #413e4d;
+}
