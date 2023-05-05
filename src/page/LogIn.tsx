@@ -6,7 +6,7 @@ import style from '../css/login.module.css';
 import useAuthenticate from '../hooks/useAuthenticate';
 
 const LogIn: FC = () => {
-	const { errors, input, handleInputChange } = useAuthenticate();
+	const { errors, input, handleInputChange, handleSubmit } = useAuthenticate();
 	return (
 		<>
 			<div className={style.ornamentRight} />
@@ -20,7 +20,7 @@ const LogIn: FC = () => {
 				</figure>
 				<h1 className={style.title}>Sufipay</h1>
 				<h2 className={style.subTitle}>Administrador Comercial</h2>
-				<form>
+				<form onSubmit={handleSubmit}>
 					<div className={style.article}>
 						<Access
 							display='Usuario'

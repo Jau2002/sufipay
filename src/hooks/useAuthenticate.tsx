@@ -1,7 +1,13 @@
 import { useState } from 'react';
 import type { Err } from '../helpers/helper';
+import { convertToken } from '../helpers/token';
 import validator from '../helpers/validator';
-import type { HandleInputChange, InputsLogin, UseAuthenticate } from './hook';
+import type {
+	HandleInputChange,
+	HandleSubmit,
+	InputsLogin,
+	UseAuthenticate,
+} from './hook';
 
 function useAuthenticate(): UseAuthenticate {
 	const [input, setInput] = useState<InputsLogin>({
@@ -24,7 +30,13 @@ function useAuthenticate(): UseAuthenticate {
 		setErrors(validator(newInput));
 	};
 
-	return { handleInputChange, errors, input };
+	const handleSubmit: HandleSubmit = (event) => {
+		event.preventDefault();
+		const token = convertToken(input.email, input.password);
+		window.localStorage.setItem('token', token);
+	};
+
+	return { handleInputChange, errors, input, handleSubmit };
 }
 
 export default useAuthenticate;

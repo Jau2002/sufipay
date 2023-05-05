@@ -1,4 +1,4 @@
-import type { ChangeEvent } from 'react';
+import type { ChangeEvent, FormEvent } from 'react';
 import type { Err } from '../helpers/helper';
 
 interface InputsLogin {
@@ -8,8 +8,11 @@ interface InputsLogin {
 
 type HandleInputChange = (event: ChangeEvent<HTMLInputElement>) => void;
 
+type HandleSubmit = (event: FormEvent<HTMLFormElement>) => void;
+
 interface UseAuthenticate {
 	handleInputChange: HandleInputChange;
 	errors: Err;
 	input: InputsLogin;
+	handleSubmit: HandleSubmit;
 }
