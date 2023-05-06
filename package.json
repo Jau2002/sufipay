@@ -7,6 +7,7 @@
 		"format": "prettier --config -c \".prettierrc.toml\" -u --no-editorconfig -w \"**/*.{tsx,ts}\" --ignore-path \".gitignore\"",
 		"lint": "eslint -c \".eslintrc.yml\" --fix \"**/*.{tsx,ts}\" --color",
 		"dev": "vite",
+		"start": "json-server --watch \"src/db.json\" --port 3001",
 		"build": "tsc && vite build",
 		"preview": "vite preview"
 	},
@@ -15,8 +16,10 @@
 		"pnpm": ">=6"
 	},
 	"dependencies": {
+		"json-server": "0.17.3",
 		"react": "18.2.0",
-		"react-dom": "18.2.0"
+		"react-dom": "18.2.0",
+		"react-router-dom": "6.11.1"
 	},
 	"devDependencies": {
 		"@types/react": "18.0.28",

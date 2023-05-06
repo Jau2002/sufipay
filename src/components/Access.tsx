@@ -1,15 +1,6 @@
 import type { FC } from 'react';
 import style from '../css/access.module.css';
-import type { HandleInputChange } from '../hooks/hook';
-
-export interface AccessComponentProps {
-	display: string;
-	name: string;
-	type?: string;
-	error?: boolean;
-	val?: string;
-	handle: HandleInputChange;
-}
+import type { AccessComponentProps } from './component';
 
 const Access: FC<AccessComponentProps> = ({
 	display,

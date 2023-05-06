@@ -1,9 +1,6 @@
 import type { FC } from 'react';
 import style from '../css/submit.module.css';
-
-interface SubmitButtonComponentProps {
-	children: string;
-}
+import type { SubmitButtonComponentProps } from './component';
 
 const SubmitButton: FC<SubmitButtonComponentProps> = ({ children }) => {
 	return (
