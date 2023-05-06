@@ -1,3 +1,12 @@
 {
-	"tokens": ["sdas@asdas.cd:scaddsa", "jau@gmail.com:1234"]
+	"tokens": ["sdas@asdas.cd:scaddsa", "jau@gmail.com:1234"],
+	"products": [
+		{
+			"dateTime": "06/05/2023 10:45:22",
+			"disbursement": 12053453752,
+			"typeDocument": "cédula_de_ciudadanía",
+			"numberDocument": 1294829324,
+			"amount": 544000
+		}
+	]
 }

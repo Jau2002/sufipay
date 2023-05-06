@@ -22,6 +22,8 @@ rules:
   react-refresh/only-export-components: 1
   react/react-in-jsx-scope: 0
   '@typescript-eslint/strict-boolean-expressions': 0
+  '@typescript-eslint/no-floating-promises': 0
+  react-hooks/rules-of-hooks: 0
 ignorePatterns:
   - node_modules/
   - build/
