@@ -1,4 +1,6 @@
 import type { FC } from 'react';
+import FilterInput from '../components/FilterInput';
+import inputHolder from '../helpers/inputHolder';
 import useSelection from '../hooks/useSelection';
 
 const DashBoard: FC = () => {
@@ -10,28 +12,15 @@ const DashBoard: FC = () => {
 				<option value='CC'>Cédula Ciudadanía</option>
 				<option value='CE'>Cédula Extranjería</option>
 			</select>
-			<input
-				placeholder='Número de documento'
-				name='doc'
-				onChange={handleFilterChange}
-			/>
-			<input
-				placeholder='Número de desembolso'
-				name='dis'
-				onChange={handleFilterChange}
-			/>
-			<input
-				name='from'
-				placeholder='Desde'
-				type='date'
-				onChange={handleFilterChange}
-			/>
-			<input
-				name='to'
-				placeholder='Hasta'
-				type='date'
-				onChange={handleFilterChange}
-			/>
+			{inputHolder.map(({ id, name, placeholder, type }) => (
+				<FilterInput
+					key={id}
+					name={name}
+					holder={placeholder}
+					handler={handleFilterChange}
+					type={type}
+				/>
+			))}
 		</>
 	);
 };

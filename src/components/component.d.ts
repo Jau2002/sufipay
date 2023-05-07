@@ -1,4 +1,7 @@
-import type { HandleInputChange } from '../hooks/hook';
+import type {
+	HandleInputChange,
+	HandleSelectTypeDocument,
+} from '../hooks/hook';
 
 interface AccessComponentProps {
 	display: string;
@@ -11,4 +14,11 @@ interface AccessComponentProps {
 
 interface SubmitButtonComponentProps {
 	children: string;
+}
+
+interface FilterInputComponentProps {
+	holder: string;
+	name: string;
+	handler: HandleSelectTypeDocument;
+	type: string;
 }

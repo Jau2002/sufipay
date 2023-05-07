@@ -8,8 +8,9 @@ import type {
 } from './hook';
 
 function useSelection(): UseSelection {
-	const { fetchAllProducts, filterMultipleProducts, filteredProducts } =
-		useProductsStore((state: State): State => state);
+	const { fetchAllProducts, filterMultipleProducts } = useProductsStore(
+		(state: State): State => state
+	);
 
 	useEffect(() => {
 		(async () => {
@@ -35,7 +36,6 @@ function useSelection(): UseSelection {
 		if (name === 'to') filterMultipleProducts({ to: value });
 	};
 
-	console.log(filteredProducts);
 	return { handleSelectTypeDocument, handleFilterChange };
 }
 

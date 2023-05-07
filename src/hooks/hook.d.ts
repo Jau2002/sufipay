@@ -17,7 +17,9 @@ interface UseAuthenticate {
 	handleSubmit: HandleSubmit;
 }
 
-type HandleSelectTypeDocument = (event: ChangeEvent<HTMLSelectElement>) => void;
+type HandleSelectTypeDocument = (
+	event: ChangeEventHandler<HTMLSelectElement>
+) => void;
 
 interface UseSelection {
 	handleSelectTypeDocument: HandleSelectTypeDocument;
