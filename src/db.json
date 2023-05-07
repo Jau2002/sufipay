@@ -2,11 +2,186 @@
 	"tokens": ["sdas@asdas.cd:scaddsa", "jau@gmail.com:1234"],
 	"products": [
 		{
-			"dateTime": "06/05/2023 10:45:22",
+			"dateTime": "2023-05-06 10:45:22",
 			"disbursement": 12053453752,
-			"typeDocument": "cédula_de_ciudadanía",
+			"typeDocument": "CC",
 			"numberDocument": 1294829324,
 			"amount": 544000
+		},
+		{
+			"dateTime": "2023-05-06 15:30:10",
+			"disbursement": 39485838494,
+			"typeDocument": "CC",
+			"numberDocument": 1029384756,
+			"amount": 1000000
+		},
+		{
+			"dateTime": "2023-05-07 09:15:42",
+			"disbursement": 28374657393,
+			"typeDocument": "CC",
+			"numberDocument": 483746562,
+			"amount": 250000
+		},
+		{
+			"dateTime": "2023-05-08 16:40:22",
+			"disbursement": 92837485848,
+			"typeDocument": "CE",
+			"numberDocument": 2049384756,
+			"amount": 750000
+		},
+		{
+			"dateTime": "2023-05-09 11:20:56",
+			"disbursement": 38475648574,
+			"typeDocument": "CC",
+			"numberDocument": 938475629,
+			"amount": 350000
+		},
+		{
+			"dateTime": "2023-05-10 14:05:30",
+			"disbursement": 47584958394,
+			"typeDocument": "CE",
+			"numberDocument": 749303040,
+			"amount": 500000
+		},
+		{
+			"dateTime": "2023-05-11 12:30:00",
+			"disbursement": 28974589287,
+			"typeDocument": "CC",
+			"numberDocument": 1234567890,
+			"amount": 200000
+		},
+		{
+			"dateTime": "2023-05-12 14:45:30",
+			"disbursement": 38475648574,
+			"typeDocument": "CE",
+			"numberDocument": 2049384756,
+			"amount": 150000
+		},
+		{
+			"dateTime": "2023-05-13 09:10:20",
+			"disbursement": 29384756384,
+			"typeDocument": "CC",
+			"numberDocument": 928374658,
+			"amount": 300000
+		},
+		{
+			"dateTime": "2023-05-14 11:20:45",
+			"disbursement": 47584958394,
+			"typeDocument": "CC",
+			"numberDocument": 749303040,
+			"amount": 500000
+		},
+		{
+			"dateTime": "2023-05-15 15:05:10",
+			"disbursement": 28374657393,
+			"typeDocument": "CE",
+			"numberDocument": 483746562,
+			"amount": 250000
+		},
+		{
+			"dateTime": "2023-05-16 11:45:30",
+			"disbursement": 38475648574,
+			"typeDocument": "CE",
+			"numberDocument": 2049384756,
+			"amount": 125000
+		},
+		{
+			"dateTime": "2023-05-17 13:30:00",
+			"disbursement": 47584958394,
+			"typeDocument": "CC",
+			"numberDocument": 749303040,
+			"amount": 75000
+		},
+		{
+			"dateTime": "2023-05-18 10:10:15",
+			"disbursement": 39485838494,
+			"typeDocument": "CC",
+			"numberDocument": 1029384756,
+			"amount": 50000
+		},
+		{
+			"dateTime": "2023-05-19 14:20:45",
+			"disbursement": 28374657393,
+			"typeDocument": "CE",
+			"numberDocument": 483746562,
+			"amount": 300000
+		},
+		{
+			"dateTime": "2023-05-20 09:00:00",
+			"disbursement": 92837485848,
+			"typeDocument": "CE",
+			"numberDocument": 2049384756,
+			"amount": 175000
+		},
+		{
+			"dateTime": "2023-05-21 16:15:00",
+			"disbursement": 39485838494,
+			"typeDocument": "CE",
+			"numberDocument": 1029384756,
+			"amount": 80000
+		},
+		{
+			"dateTime": "2023-05-22 11:00:30",
+			"disbursement": 28374657393,
+			"typeDocument": "CC",
+			"numberDocument": 483746562,
+			"amount": 40000
+		},
+		{
+			"dateTime": "2023-05-23 09:30:15",
+			"disbursement": 92837485848,
+			"typeDocument": "CE",
+			"numberDocument": 2049384756,
+			"amount": 200000
+		},
+		{
+			"dateTime": "2023-05-24 12:45:00",
+			"disbursement": 47584958394,
+			"typeDocument": "CC",
+			"numberDocument": 749303040,
+			"amount": 100000
+		},
+		{
+			"dateTime": "2023-05-25 14:00:20",
+			"disbursement": 38475648574,
+			"typeDocument": "CC",
+			"numberDocument": 2049384756,
+			"amount": 150000
+		},
+		{
+			"dateTime": "2023-05-26 15:30:45",
+			"disbursement": 92837485848,
+			"typeDocument": "CE",
+			"numberDocument": 2049384756,
+			"amount": 30000
+		},
+		{
+			"dateTime": "2023-05-27 17:45:00",
+			"disbursement": 47584958394,
+			"typeDocument": "CC",
+			"numberDocument": 749303040,
+			"amount": 25000
+		},
+		{
+			"dateTime": "2023-05-28 10:00:30",
+			"disbursement": 38475648574,
+			"typeDocument": "CC",
+			"numberDocument": 1029384756,
+			"amount": 120000
+		},
+		{
+			"dateTime": "2023-05-29 11:15:00",
+			"disbursement": 28374657393,
+			"typeDocument": "CE",
+			"numberDocument": 2049384756,
+			"amount": 90000
+		},
+		{
+			"dateTime": "2023-05-30 12:30:20",
+			"disbursement": 39485838494,
+			"typeDocument": "CC",
+			"numberDocument": 483746562,
+			"amount": 50000
 		}
 	]
 }
