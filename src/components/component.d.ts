@@ -22,3 +22,11 @@ interface FilterInputComponentProps {
 	handler: HandleSelectTypeDocument;
 	type: string;
 }
+
+interface CardComponentProps {
+	date: string;
+	disbursement: number;
+	typeDocument: string;
+	numberDocument: number;
+	amount: number;
+}

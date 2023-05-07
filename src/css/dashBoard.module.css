@@ -1,0 +1,13 @@
+.article {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: auto;
+	background: #f1f6fb;
+	padding: 1rem 0;
+	padding-left: 4rem;
+}
+
+.article-column {
+	font: bold 0.9em 'Open Sans', sans-serif;
+	color: #413e4d;
+}
