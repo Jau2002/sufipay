@@ -1,4 +1,5 @@
 import type { FC } from 'react';
+import style from '../css/filterInput.module.css';
 import type { FilterInputComponentProps } from './component';
 
 const FilterInput: FC<FilterInputComponentProps> = ({
@@ -9,6 +10,7 @@ const FilterInput: FC<FilterInputComponentProps> = ({
 }) => {
 	return (
 		<input
+			className={style.input}
 			placeholder={holder}
 			name={name}
 			onChange={handler}

@@ -1,0 +1,23 @@
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+	background: #fafafa;
+	padding: 1rem 0;
+}
+
+.select {
+	padding: 1rem;
+	background: transparent;
+	color: #abb9c7;
+	font: 1em 'Open Sans', sans-serif;
+	cursor: pointer;
+	outline-color: #abb9c780;
+	border-radius: 6px;
+	padding-right: 20px;
+	border: solid 2px #abb9c780;
+}
+
+.option {
+	color: #413e4d;
+	background: transparent;
+}
