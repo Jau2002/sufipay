@@ -18,9 +18,19 @@ interface Product {
 	amount: number;
 }
 
+interface FilterProducts {
+	document?: string;
+	outlay?: number;
+	numDocument?: number;
+	from?: string;
+	to?: string;
+}
+
 interface State {
 	products: Product[] | never[];
+	filteredProducts: Product[] | never[];
 	fetchAllProducts: () => Promise<void>;
+	filterMultipleProducts: (FilterProducts) => void;
 }
 
 type PayStore = UseBoundStore<StoreApi<state>>;

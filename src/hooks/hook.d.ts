@@ -16,3 +16,10 @@ interface UseAuthenticate {
 	input: InputsLogin;
 	handleSubmit: HandleSubmit;
 }
+
+type HandleSelectTypeDocument = (event: ChangeEvent<HTMLSelectElement>) => void;
+
+interface UseSelection {
+	handleSelectTypeDocument: HandleSelectTypeDocument;
+	handleFilterChange: HandleInputChange;
+}
