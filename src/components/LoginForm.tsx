@@ -2,7 +2,6 @@ import type { FC } from 'react';
 import style from '../css/login.module.css';
 import useAuthenticate from '../hooks/useAuthenticate';
 import Access from './Access';
-import SubmitButton from './SubmitButton';
 
 const LoginForm: FC = () => {
 	const { errors, input, handleInputChange, handleSubmit } = useAuthenticate();
@@ -25,7 +24,12 @@ const LoginForm: FC = () => {
 					handle={handleInputChange}
 				/>
 			</div>
-			<SubmitButton>INGRESAR</SubmitButton>
+			<button
+				type='submit'
+				className={style.button}
+			>
+				INGRESAR
+			</button>
 		</form>
 	);
 };

@@ -25,3 +25,7 @@ interface UseSelection {
 	handleSelectTypeDocument: HandleSelectTypeDocument;
 	handleFilterChange: HandleInputChange;
 }
+
+interface UseDownload {
+	handleDownload: () => void;
+}

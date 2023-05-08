@@ -14,6 +14,7 @@ interface AccessComponentProps {
 
 interface SubmitButtonComponentProps {
 	children: string;
+	handle?: () => void;
 }
 
 interface FilterInputComponentProps {

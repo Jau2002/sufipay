@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	padding: 2rem 0;
+}
+
+.header-title {
+	padding-left: 3rem;
+	color: #413e4d;
+	font: bold 1.2em 'Open Sans', sans-serif;
+}
+
+.header-button {
+	font: bold 1em 'Open Sans', sans-serif;
+	color: #fff;
+	background: #dd3542;
+	border-radius: 1.5rem;
+	padding: 1rem 3rem;
+	margin-right: 3rem;
+}
