@@ -1,0 +1,16 @@
+.link {
+	color: #31323f;
+	font: bold 1.2em 'Open Sans', sans-serif;
+	text-align: right;
+	background: #fff;
+	position: absolute;
+	right: 2rem;
+	top: 2rem;
+	background: transparent;
+}
+
+.figure {
+	width: 10%;
+	margin: auto;
+	padding: 1.5rem 0;
+}

@@ -29,3 +29,7 @@ interface UseSelection {
 interface UseDownload {
 	handleDownload: () => void;
 }
+
+interface UseSingOff {
+	handleLogout: () => void;
+}
