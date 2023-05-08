@@ -5,6 +5,7 @@ import type { FilterProducts, PayStore, State } from './store';
 export const useProductsStore: PayStore = create<State>((set, get) => ({
 	products: [],
 	filteredProducts: [],
+	itemsPerPage: 16,
 
 	fetchAllProducts: async () => {
 		set({ products: await getProducts() });
@@ -52,5 +53,9 @@ export const useProductsStore: PayStore = create<State>((set, get) => ({
 		}
 
 		set({ filteredProducts: filterProducts });
+	},
+
+	setItemsForPage: (items: number) => {
+		set({ itemsPerPage: items });
 	},
 }));

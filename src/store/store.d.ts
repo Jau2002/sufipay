@@ -29,6 +29,8 @@ interface FilterProducts {
 interface State {
 	products: Product[] | never[];
 	filteredProducts: Product[] | never[];
+	itemsPerPage: number;
+	setItemsForPage: (items: number) => void;
 	fetchAllProducts: () => Promise<void>;
 	filterMultipleProducts: (FilterProducts) => void;
 }

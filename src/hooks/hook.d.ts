@@ -33,3 +33,11 @@ interface UseDownload {
 interface UseSingOff {
 	handleLogout: () => void;
 }
+
+type HandleChangeRecordsForPage = (
+	event: ChangeEventHandler<HTMLSelectElement>
+) => void;
+
+interface UsePaging {
+	handleChangeRecordsForPage: HandleChangeRecordsForPage;
+}

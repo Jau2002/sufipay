@@ -12,11 +12,11 @@ const Nav: FC = () => {
 				onChange={handleSelectTypeDocument}
 				className={style.select}
 				required
+				defaultValue=''
 			>
 				<option
 					hidden
 					disabled
-					selected
 					value=''
 				>
 					Tipo doc.
